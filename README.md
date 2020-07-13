@@ -1,4 +1,4 @@
-# conda-environment-examples
+# Simpletransformers
 
 Example showing how to build a conda environment containing the 
 [Simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) library which also shows how to 
