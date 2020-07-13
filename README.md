@@ -4,7 +4,7 @@ Example showing how to build a conda environment containing the
 [Simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) library which also shows how to 
 correctly combine Conda and Pip to install packages into a Conda environment on Ibex.
 
-# Building the conda environment
+## Building the conda environment
 
 The following Bash commands will clone the `simpletransformers` branch of the 
 `kaust-rccl/conda-environment-examples` GitHub repo and build the Conda environment as described in the three 
