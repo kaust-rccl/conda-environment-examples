@@ -14,7 +14,7 @@ environment will be built in the `env` sub-directory inside the `simpletransform
 
 ```bash
 git clone --single-branch --branch simpletransformers https://github.com/kaust-rccl/conda-environment-examples.git
-cd simpletransformers
+cd conda-environement-examples
 ./bin/create-conda-env.sh
 ```
 
