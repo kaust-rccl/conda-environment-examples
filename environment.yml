@@ -1,0 +1,21 @@
+name: null
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cudatoolkit=10.1
+  - jupyterlab=2.1
+  - jupyterlab-git=0.20
+  - matplotlib=3.2
+  - pandas=1.0
+  - pip=20.1
+  - pip:
+    - -r file:requirements.txt
+  - python=3.7
+  - pytorch=1.5
+  - tensorboard=2.2
+  - torchtext=0.6
+  - tqdm=4.47
