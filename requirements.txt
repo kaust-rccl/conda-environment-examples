@@ -1,4 +1,5 @@
 jupyterlab-nvdashboard==0.3.*
 jupyter-tensorboard==0.2.*
-simpletransformers
-wandb
+simpletransformers==0.43.*
+wandb==0.9.*
+
