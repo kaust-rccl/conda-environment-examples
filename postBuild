@@ -1,3 +1,10 @@
+# install NVIDIA apex (should be doable via pip requirements file!)
+conda activate $ENV_PREFIX
+git clone https://github.com/NVIDIA/apex
+pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" $PWD/apex
+rm -rf $PWD/apex
+
+# install JupyterLab extensions
 jupyter labextension install --no-build jupyterlab_tensorboard
 jupyter labextension install --no-build jupyterlab-nvdashboard
 jupyter lab build
