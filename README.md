@@ -21,5 +21,10 @@ cd conda-environement-examples
 sbatch --mail-user $KAUST_EMAIL ./bin/create-conda-env.sbatch
 ```
 
+Once the job finished successfully you can activate the environment as follows.
+
+```bash
+conda activate $PWD/env
+```
 
 
