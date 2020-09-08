@@ -1,5 +1,6 @@
+MinkowskiEngine==0.4.*
 jupyterlab-nvdashboard==0.3.*
 jupyter-tensorboard==0.2.*
-simpletransformers==0.43.*
-wandb==0.9.*
 
+# make sure that MinkowskiEngine is re-compiled when environment is rebuilt
+--no-binary=MinkowskiEngine

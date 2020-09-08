@@ -8,15 +8,14 @@ channels:
 dependencies:
   - cxx-compiler=1.1 # makes sure cxx compilers are available
   - cudatoolkit-dev=10.1.243 # includes nvcc
-  - jupyterlab=2.1
-  - jupyterlab-git=0.20
-  - matplotlib=3.2
-  - pandas=1.0
-  - pip=20.1
+  - jupyterlab=2.2
+  - matplotlib=3.3
+  - mkl-include=2020.2
+  - nodejs=14.9
+  - pandas=1.1
+  - pip=20.2
   - pip:
     - -r file:requirements.txt
-  - python=3.7
-  - pytorch=1.5.1=py3.7_cuda10.1.243_cudnn7.6.3_0 # want specific pytorch build
-  - tensorboard=2.2
-  - torchtext=0.6
-  - tqdm=4.47
+  - python=3.8
+  - pytorch=1.6.0=py3.8_cuda10.1.243_cudnn7.6.3_0 # want specific pytorch build
+  - tensorboard=2.3
