@@ -1,0 +1,20 @@
+name: null
+
+channels:
+  - intel
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cudatoolkit=10.1
+  - cudnn=7.6
+  - cupti=10.1
+  - jupyterlab=2.2
+  - jupyterlab-git=0.20
+  - nccl=2.4
+  - nodejs=14.9
+  - pip=20.1
+  - pip:
+    - tensorflow-gpu==1.14.* # switch to conda when available
+    - -r file:requirements.txt
+  - python=3.7
