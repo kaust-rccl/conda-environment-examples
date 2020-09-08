@@ -1,4 +1,4 @@
-# Simpletransformers
+# MinkowskiEngine
 
 Example showing how to build a Conda environment containing the 
 [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) together with  
