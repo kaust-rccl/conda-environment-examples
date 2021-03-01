@@ -1,0 +1,8 @@
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric
+
+
+--find-links https://pytorch-geometric.com/whl/torch-1.7.0+cu110.html

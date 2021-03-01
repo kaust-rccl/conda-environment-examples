@@ -1,0 +1,30 @@
+name: pytorch-env
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - ase
+  - cudatoolkit=11.0
+  - googledrivedownloader
+  - h5py
+  - jinja2
+  - networkx
+  - numba
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - -r file:requirements.txt
+  - python=3.8
+  - python-louvain
+  - pytorch=1.7
+  - rdflib
+  - requests
+  - scipy
+  - scikit-learn
+  - torchaudio
+  - torchvision
+  - tqdm
