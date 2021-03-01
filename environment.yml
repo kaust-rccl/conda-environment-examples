@@ -16,15 +16,14 @@ dependencies:
   - numpy
   - pandas
   - pip
-  - pip:
-    - -r file:requirements.txt
   - python=3.8
   - python-louvain
   - pytorch=1.7
   - rdflib
   - requests
-  - scipy
   - scikit-learn
+  - scipy
   - torchaudio
   - torchvision
   - tqdm
+  
