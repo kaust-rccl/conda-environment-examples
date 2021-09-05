@@ -11,6 +11,5 @@
 #SBATCH --error=bin/%x-%j-slurm.err
 
 module purge
-module load gcc/6.4.0
 module load cuda/10.1.243
 ./bin/create-conda-env.sh
